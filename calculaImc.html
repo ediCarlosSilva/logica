@@ -14,6 +14,10 @@
         return imc;
     }
 
-    var imcCalculado = calculaImc(1.77, 75);
-    mostra("O meu IMC é: " + imcCalculado);
+    var nome = prompt("Informe seu nome");
+    var altura = prompt("Informe sua altura");
+    var peso = prompt("Informe seu peso");
+
+    var imcCalculado = calculaImc(altura, peso);
+    mostra(nome + " o seu IMC é: " + imcCalculado);
 </script>
